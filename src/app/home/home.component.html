@@ -1,0 +1,15 @@
+<div class="mainWraper">
+    <audio src="/src/assets/audio/counterbgm.mp3"></audio>
+    <div class="subWraper">
+        <h1 class="heading"><span style="font-size: 200%;">c</span>OUNTER-APP</h1>
+        <div style="display: flex; align-items: center;"><h1>count:</h1><p class="countSpan" style="font-size: 500%;">{{count}}</p></div>
+        <div class="incdecBtn">
+            <button (click)="incrementBtn()" class="incBtn"><i class="fa-solid fa-plus" style="color: #ffffff;"></i>
+                 Increase</button>
+            <button (click)="decrementBtn()" class="decBtn"><i class="fa-solid fa-plus" style="color: #ffffff;"></i> Decrease</button>
+        </div>
+        <div class="rebtnWraper">
+            <button (click)="resetBtn()" class="reBtn"><i class="fa-solid fa-rotate-right" style="color: #ffffff; margin-right: 5%;"></i>  Reset</button>
+        </div>
+    </div>
+</div>
